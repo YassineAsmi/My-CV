@@ -2758,9 +2758,10 @@ h6 {
       color: #fff;
       font-size: 16px; }
     .personal_text .personal_social li:hover a {
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+      background-image: -moz-linear-gradient(0deg, #766dff 0%, #00acee 100%);
+      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #00acee 100%);
+      background-image: -ms-linear-gradient(0deg, #766dff 0%, #00acee 100%);
+      background-image: -ms-linear-gradient(0deg, #766dff 0%, #00acee 100%); }
 
 /* End Personal Profile Area css
 ============================================================================================ */
