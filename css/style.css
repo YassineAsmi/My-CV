@@ -2683,10 +2683,10 @@ h6 {
     border-color: #fff;
     background: #fff; }
     .feature_item:hover i:before {
-      background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+      background: linear-gradient(to right, #8490ff 0%, #00f7ff 70%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
-
+      -webkit-text-fill-color: transparent;
+     }
 /* End Feature Area css
 ============================================================================================ */
 /* Personal Profile Area css
