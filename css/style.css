@@ -2499,6 +2499,11 @@ h6 {
     background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+  .wel_item img {
+    font-size: 24px;
+    background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
   .wel_item h4 {
     font-size: 24px;
     font-family: "Heebo", sans-serif;
@@ -2996,7 +3001,67 @@ h6 {
   margin-top: 60px; }
   .copy_right_text p a {
     color: #766dff; }
-
+    body {
+      font: 12px/1.5 'PT Sans', serif;
+      margin: 25px;
+    }
+    
+    .tags {
+      list-style: none;
+      margin: 0;
+      overflow: hidden; 
+      padding: 0;
+    }
+    
+    .tags li {
+      float: left; 
+    }
+    
+    .tag {
+      background: #eee;
+      border-radius: 3px 0 0 3px;
+      color: #999;
+      display: inline-block;
+      height: 26px;
+      line-height: 26px;
+      padding: 0 20px 0 23px;
+      position: relative;
+      margin: 0 10px 10px 0;
+      text-decoration: none;
+      -webkit-transition: color 0.2s;
+    }
+    
+    .tag::before {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+      content: '';
+      height: 6px;
+      left: 10px;
+      position: absolute;
+      width: 6px;
+      top: 10px;
+    }
+    
+    .tag::after {
+      background: #fff;
+      border-bottom: 13px solid transparent;
+      border-left: 10px solid #eee;
+      border-top: 13px solid transparent;
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .tag:hover {
+      background-color: rgb(0, 162, 255);
+      color: white;
+    }
+    
+    .tag:hover::after {
+       border-left-color: rgb(2, 238, 255); 
+    }
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
